@@ -1,7 +1,6 @@
 const form = document.querySelector(".form")
 const textArea = document.getElementById("text")
 const notification = document.querySelector(".notification")
-const button = document.querySelector("button")
 const array =["a","e","ı","i","o","ü","ö","u"]
 form.addEventListener("submit", (e) =>{
     e.preventDefault()
